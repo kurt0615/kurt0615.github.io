@@ -1,5 +1,5 @@
 {
-    "short_name": "PWA_Icon",
+    "short_name": "PWA",
     "name": "PWA_Launch",
     "icons": [{
      "src":"icon/icon.png",
