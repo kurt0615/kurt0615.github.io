@@ -6,8 +6,7 @@
      "sizes": "192X192",
      "type": "image/png"
      }],
-    "scope": "/pwa/",
-    "start_url": "/index.html",
+    "start_url": "/pwa/index.html",
     "_comment_1": "lanch_page background",
     "background_color": "#3367D6",
     "_comment_2":  "task switch color",
