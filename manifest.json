@@ -1,0 +1,15 @@
+{
+    "short_name": "PWA_Short_Name",
+    "name": "PWA_Full_Name",
+    "icons": [{
+     "src":"icon/icon.png",
+     "sizes": "192X192",
+     "type": "image/png"
+     }],
+    "start_url": "/index.html",
+    "_comment_1": "lanch_page background",
+    "background_color": "#FF0000",
+    "_comment_2":  "task switch color",
+    "theme_color": "#536878", 
+    "display": "standalone"
+   }

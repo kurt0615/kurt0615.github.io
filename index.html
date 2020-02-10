@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="prompt.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then((reg) => {
+                        console.log("Register SW Success", reg);
+                    }).catch((err) => {
+                        console.log("Register SW Fail:", err);
+                    })
+            });
+        } else {
+            console.log("No SW Feture");
+        }
+    </script>
+</head>
+<html>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" sizes="192x192" href="icon/icon.png">
+</head>
+
+<body>
+    <h1>First PWA</h1>
+    <p>PWA-opeing-Y</p>
+    <button id="btnAdd">install</button>
+</body>
+
+</html>
