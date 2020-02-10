@@ -6,10 +6,10 @@
      "sizes": "192X192",
      "type": "image/png"
      }],
-    "start_url": "/index.html",
+    "start_url": "/pwa/index.html",
     "_comment_1": "lanch_page background",
     "background_color": "#3367D6",
     "_comment_2":  "task switch color",
     "theme_color": "#536878", 
-    "display": "fullscreen"
+    "display": "minimal-ui"
    }
