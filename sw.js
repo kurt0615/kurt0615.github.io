@@ -16,6 +16,7 @@ self.addEventListener('install', function (event) {
 
 self.addEventListener('activate', event => {
   console.log('SW activate');
+  return self.clients.claim()
 });
 
 self.addEventListener('fetch', function (event) {
