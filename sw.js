@@ -11,6 +11,7 @@ self.addEventListener('install', function (event) {
       .then(function (cache) {
         return cache.addAll(resourceToCache);
       }));
+    self.skipWaiting()
 });
 
 self.addEventListener('activate', event => {
