@@ -2,7 +2,7 @@
     "short_name": "PWA_7",
     "name": "PWA_7",
     "icons": [{
-     "src":"icon/icon.png",
+     "src":"/icon/icon.png",
      "sizes": "180X180",
      "type": "image/png"
      }],
