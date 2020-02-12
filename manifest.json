@@ -6,7 +6,6 @@
      "sizes": "192X192",
      "type": "image/png"
      }],
-    "scope": "/pwa/",
     "start_url": "/index.html",
     "_comment_1": "lanch_page background",
     "background_color": "#3367D6",
