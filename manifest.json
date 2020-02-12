@@ -1,11 +1,16 @@
 {
     "short_name": "PWA_7",
     "name": "PWA_7",
-    "icons": [{
-     "src":"/icon/icon.png",
-     "sizes": "180X180",
-     "type": "image/png"
-     }],
+    "icons": [   {
+            "src": "/icon/icon.png",
+            "sizes": "180X180",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon/icon-512.png",
+            "sizes": "512X512",
+            "type": "image/png"
+        }],
     "scope":"/",
     "start_url": "/index.html",
     "_comment_1": "lanch_page background",
