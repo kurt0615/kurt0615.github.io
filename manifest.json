@@ -1,9 +1,9 @@
 {
-    "short_name": "PWA_5",
-    "name": "PWA_5",
+    "short_name": "PWA_6",
+    "name": "PWA_6",
     "icons": [{
      "src":"icon/icon.png",
-     "sizes": "192X192",
+     "sizes": "180X180",
      "type": "image/png"
      }],
     "start_url": "/index.html",
