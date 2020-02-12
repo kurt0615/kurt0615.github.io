@@ -1,13 +1,13 @@
 {
-    "short_name": "PWA_2",
-    "name": "PWA_2",
+    "short_name": "PWA_3",
+    "name": "PWA_3",
     "icons": [{
      "src":"icon/icon.png",
      "sizes": "192X192",
      "type": "image/png"
      }],
-    "scope": "/pwa",
-    "start_url": "/index.html",
+    "scope": "/pwa/",
+    "start_url": "/pwa/index.html",
     "_comment_1": "lanch_page background",
     "background_color": "#3367D6",
     "_comment_2":  "task switch color",
