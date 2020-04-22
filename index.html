@@ -1,5 +1,12 @@
 <!DOCTYPE html>
+<script>
+var noContext = document.getElementById('noContextMenu');
 
+noContext.addEventListener('contextmenu', e => {
+  e.preventDefault();
+  console.log(1)
+});
+</script>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" >
     <meta name="theme-color" content="#317EFB"/>
@@ -25,6 +32,10 @@
 </head>
 
 <body>
+    <img src="https://interactive-examples.mdn.mozilla.net/media/examples/grapefruit-slice-332-332.jpg"></img>
+    <p id="noContextMenu">The context menu has been disabled on this paragraph.</p>
+<p>But it has not been disabled on this one.</p>
+    
     <h1>First PWA</h1>
     <p>PWA-opeing !!</p>
     <button id="btnAdd">install</button>
