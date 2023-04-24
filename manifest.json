@@ -1,21 +1,35 @@
 {
-    "short_name": "PWA_7",
-    "name": "PWA_7",
-    "icons": [   {
-            "src": "/icon/icon.png",
-            "sizes": "180X180",
+    "name": "fpjs_pro_plugin_example",
+    "short_name": "fpjs_pro_plugin_example",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "Demonstrates how to use the fpjs_pro_plugin plugin.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/icon/icon-512.png",
-            "sizes": "512X512",
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
             "type": "image/png"
-        }],
-    "scope":"/",
-    "start_url": "/index.html",
-    "_comment_1": "lanch_page background",
-    "background_color": "#3367D6",
-    "_comment_2":  "task switch color",
-    "theme_color": "#536878", 
-    "display": "Fullscreen"
-   }
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
